@@ -1,0 +1,75 @@
+$bg-general: #8695C2;
+$btn-color:#26DCA6;
+$white: #ffffff;
+
+body {
+  font-family:Montserrat;
+  background-color:$bg-general;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+a {
+  text-decoration:none;
+}
+
+.center-block {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.text-bold {
+ font-weight:bold; 
+}
+
+.text-white {
+  color:$white;
+}
+.text-center {
+  text-align: center;;
+}
+.text-uppercase {
+  text-transform:uppercase;
+}
+.radius-50 {
+  border-radius:50px;
+}
+
+// Header
+.logo {
+  margin-top:31px;
+}
+.texto-principal {
+  margin-top:64px;
+}
+.images-fitness {
+  margin-top:50px;
+}
+.btn {
+
+}
+.btn-suscripcion {
+  display:block;
+  width:435px;
+  font-size:18px;
+  padding:19.12px 0;   
+  background-color:$btn-color;
+}
+.call-to-action {
+  margin-top:55px;
+}
+.call-to-action h3{
+  font-weight:500;
+}
+
+h3 span {
+  display:block;
+}
+
+footer p {
+  margin-top:57.5px; 
+  font-size:7.5px;
+  font-weight:300;
+}
